@@ -1,0 +1,21 @@
+#! /bin/sh
+cd examples;
+cd 1-replica/shardkv-node1; rm -rf wal*; cd ../..;
+cd 1-replica/shardkv-node2; rm -rf wal*; cd ../..;
+cd 1-replica/shardkv-node3; rm -rf wal*; cd ../..;
+cd 1-replica/shardkv-node4; rm -rf wal*; cd ../..;
+cd 1-replica/shardkv-node5; rm -rf wal*; cd ../..;
+cd 1-replica/shardkv-node6; rm -rf wal*; cd ../..;
+cd 1-replica/master-node1; rm -rf wal*; cd ../..;
+cd 1-replica/master-node2; rm -rf wal*; cd ../..;
+cd 1-replica/master-node3; rm -rf wal*; cd ../..;
+cd 3-replica/shardkv-node1; rm -rf wal*; cd ../..;
+cd 3-replica/shardkv-node2; rm -rf wal*; cd ../..;
+cd 3-replica/shardkv-node3; rm -rf wal*; cd ../..;
+cd 3-replica/shardkv-node4; rm -rf wal*; cd ../..;
+cd 3-replica/shardkv-node5; rm -rf wal*; cd ../..;
+cd 3-replica/shardkv-node6; rm -rf wal*; cd ../..;
+cd 3-replica/master-node1; rm -rf wal*; cd ../..;
+cd 3-replica/master-node2; rm -rf wal*; cd ../..;
+cd 3-replica/master-node3; rm -rf wal*; cd ../..;
+cd ..;
